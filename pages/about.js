@@ -1,5 +1,12 @@
-const About = () => {
-  return <div className="text-sm">About page!</div>
-}
+import { Button, Layout } from "~/components";
 
-export default About
+const About = () => {
+  return (
+    <Layout title="About">
+      <div className="text-sm">About page!</div>
+      <Button />
+    </Layout>
+  );
+};
+
+export default About;
