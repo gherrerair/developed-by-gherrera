@@ -1,18 +1,18 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  purge: ["./pages/**/*.js", "./components/**/*.js"],
+  purge: ['./pages/**/*.tsx', './components/**/*.tsx', './pages/**/*.js', './components/**/*.js'],
   darkMode: false,
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
-        mono: ["Fira Code", ...defaultTheme.fontFamily.mono],
-      },
-    },
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        mono: ['Hack', ...defaultTheme.fontFamily.mono]
+      }
+    }
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 };
