@@ -14,7 +14,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
-      "@code/*": ["./*"]
+      "@code/*": ["./*"],
+      "@code-ui/react": ["./components"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.d.ts", "**/*.d.tsx"],
