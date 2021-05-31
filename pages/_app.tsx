@@ -1,6 +1,6 @@
 import { Navigation } from '@code-ui/react';
 import { AppProps } from 'next/app';
-import '@code/styles/tailwind.css';
+import 'tailwindcss/tailwind.css';
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
